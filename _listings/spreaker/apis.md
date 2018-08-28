@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Favorite
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorite/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorite/master/_listings/spreaker/useruser-idlivesfan-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorite/master/_listings/spreaker/useruser-idlivesfan-get-openapi.md
+- name: Spreaker API - Get Favorite Shows
+  x-api-slug: useruser-idshowsfan-get
+  description: Retrieves the list of shows whose authors are followed by <user_id>.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/favorite/master/_listings/spreaker/useruser-idshowsfan-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://spotify.api.gallery.streamdata.io

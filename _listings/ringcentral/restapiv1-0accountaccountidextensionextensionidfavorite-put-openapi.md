@@ -1,9 +1,21 @@
+---
 swagger: "2.0"
 x-collection-name: RingCentral
-x-complete: 1
+x-complete: 0
 info:
-  title: RingCentral Connect Platform API Explorer
-  description: this-is-an-interactive-api-explorer-for-the-ringcentral-connect-platform--to-use-this-service-you-will-need-to-have-a-developer-account---links--a-hrefhttpsnetstorage-ringcentral-comdpwapiexplorerrcplatform-basic-ymlv20180514092722-target-blankringcentral-api-specaspannbspnbspopenapi-fka-swagger-formatnbspnbspnbspnbspspana-hrefhttpsgithub-comoaiopenapispecification-target-blanklearn-more-about-openapia
+  title: RingCentral Update Favorite Contacts
+  description: "Updates favorite contacts of the current extension. Favorite contacts
+    include both company contacts (extensions) and personal contacts (address book
+    records).**Please note**: currently personal address book size is limited to 10
+    000 contacts.\nApp Permission\nContacts\nUser Permission\nEditPersonalContacts\nUsage
+    Plan Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error
+    Message\n   \n \n\n400\nCMN-101\nParameter [records.extensionId] value is invalid\n\n\n400\nFAV-100\nContact
+    not found\n\n\n400\nFAV-101\nMore than one contact with the same [records.extensionId]\n\n\n400\nFAV-102\n[records.extensionId]
+    and [records.contactId] could not be specified for one contact simultaneously\n\n\n400\nFAV-103\nMore
+    than one contact with the same [records.id]\n\n\n400\nFAV-104\nContact limit exceeded\n\n\n400\nFAV-105\nContact
+    not found in federated directory\n\n\n403\nCMN-401\nIn order to call this API
+    endpoint, application needs to have [Contacts] permission\n\n\n404\nCMN-102\nResource
+    for parameter [accountId] is not found"
   version: 1.0.0
 host: platform.ringcentral.com
 basePath: /
@@ -79,3 +91,17 @@ paths:
       tags:
       - Favorite
       - Contacts
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Spreaker
-x-complete: 1
+x-complete: 0
 info:
-  title: Spreaker API
+  title: Spreaker API Get Favorite Shows
   version: v1
+  description: Retrieves the list of shows whose authors are followed by <user_id>.
 host: api.spreaker.com
 basePath: /
 schemes:
@@ -51,3 +53,17 @@ paths:
       - Podcasts
       - Favorite
       - Shows
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
